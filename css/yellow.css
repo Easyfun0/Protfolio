@@ -1,0 +1,44 @@
+.aside .logo a::before{
+    border-top: 3px solid #ffb400;
+    border-left: 3px solid #ffb400;
+}
+.aside .logo a::after{
+    border-bottom: 3px solid #ffb400;
+    border-right: 3px solid #ffb400;
+}
+body.dark .portfolio .portfolio-filter button.active,
+.contact .contact-info-item .icon .fas,
+.contact .contact-info-item .icon .fa,
+.blog .blog-tags a,
+.lightbox-controls .prev-item .fa,
+.lightbox-controls .next-item .fa,
+.portfolio .portfolio-info .icon .fa,
+.portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .fa,
+.about-text h3 span,
+body.dark .aside .nav li a.active,
+body.dark .aside .nav li a:hover,
+.aside .nav li a:hover,
+.aside .nav li a.active{
+    /* padding-left: 5px; */
+    color: #ffb400;
+}
+.blog-item-inner .blog-date,
+.service .service-item .service-item-inner:hover .icon,
+.about .timeline .timeline-item::before,
+.about .timeline .circle-dot,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.section-title h2::before,
+.section-title h2::after,
+.btn,
+.progress-in,
+.home .intro .social-links a
+{
+    background-color: #ffb400;
+}
+
+.portfolio .portfolio-filter button.active{
+    border-color: #ffb400;
+}
